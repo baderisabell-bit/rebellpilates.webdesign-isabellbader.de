@@ -227,9 +227,14 @@ function loadYoutubeVideo(element, videoId) {
 
 let currentApparateIndex = 0;
 
+// Pfeil-Buttons Klick-Funktion
 function moveApparate(direction) {
     const gallery = document.querySelector('.apparate-gallery');
-    const totalSlides = document.querySelectorAll('.apparate-gallery .image-block').length;
+    const slides = document.querySelectorAll('.apparate-gallery .image-block');
+    
+    if (!gallery || slides.length === 0) return;
+
+    const totalSlides = slides.length;
 
     currentApparateIndex += direction;
 
@@ -239,10 +244,35 @@ function moveApparate(direction) {
         currentApparateIndex = 0;
     }
 
+    const slideWidth = slides[0].clientWidth;
+
     gallery.scrollTo({
-        left: gallery.clientWidth * currentApparateIndex,
+        left: slideWidth * currentApparateIndex,
         behavior: 'smooth'
     });
 }
+
+// Index automatisch aktualisieren, wenn der Nutzer per Touch/Finger wischt
+document.addEventListener('DOMContentLoaded', () => {
+    const gallery = document.querySelector('.apparate-gallery');
+    
+    if (gallery) {
+        let isScrolling;
+        
+        gallery.addEventListener('scroll', () => {
+            // Verhindert zu häufiges Ausführen während der Wischbewegung (Debounce)
+            clearTimeout(isScrolling);
+            
+            isScrolling = setTimeout(() => {
+                const slides = document.querySelectorAll('.apparate-gallery .image-block');
+                if (slides.length === 0) return;
+                
+                const slideWidth = slides[0].clientWidth;
+                // Berechnet den aktuellen Bild-Index basierend auf der Scroll-Position
+                currentApparateIndex = Math.round(gallery.scrollLeft / slideWidth);
+            }, 100);
+        });
+    }
+});
 
 /*Kontaktformular*/

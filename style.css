@@ -611,6 +611,12 @@ html {
     font-size: 0.85rem
 }
 
+@media (max-width: 768px) {
+    .footer-col h4 {
+        margin-top: 10px;
+    }
+}
+
 /* =========================================================
    6. RESPONSIVE (Mobil-Anpassung)
    ========================================================= */
@@ -772,38 +778,71 @@ html {
 /* MOBILE ANSICHT (Unter 768px) */
 @media (max-width: 768px) {
     #apparate {
-        padding: 40px 20px; /* Sauberes Padding für Mobile */
+        padding: 40px 0; /* Entfernt seitliches Padding, damit Galerie zentriert breit fließen kann */
+    }
+
+    .apparate-gallery-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .apparate-gallery {
         display: flex;
-        overflow: hidden;
+        overflow-x: auto;
         scroll-behavior: smooth;
+        scroll-snap-type: x mandatory; /* Zwingt das Bild beim Wischen exakt in die Mitte */
         justify-content: flex-start;
         gap: 0;
         width: 100%;
+        margin: 0 auto;
+        /* Versteckt Scrollbalken für ein sauberes Design */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE/Edge */
+    }
+
+    .apparate-gallery::-webkit-scrollbar {
+        display: none; /* Chrome/Safari */
     }
 
     .apparate-gallery .image-block {
         min-width: 100%;
         max-width: 100%;
-        transform: none !important; /* Kein Anheben auf Mobilgeräten */
+        flex: 0 0 100%;
+        scroll-snap-align: center; /* Zentriert jedes Bild beim Scrollen */
+        transform: none !important; /* Keinen Offset auf Mobilgeräten */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px; /* Kleiner Abstand zum Rand */
+        box-sizing: border-box;
+    }
+
+    .img-apparate-wrapper {
+        width: 100%;
+        max-width: 350px; /* Hält die Bilder optisch gut zentriert & kompakt */
+        margin: 0 auto;
     }
 
     .pilates-apparate {
-        height: 220px;
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
     }
 
+    /* Buttons unter der Galerie zentriert platzieren */
     .apparate-controls {
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 20px;
         margin-top: 20px;
+        width: 100%;
     }
 
     .app-btn {
-        background-color: transparent;
-        border: 1px solid #ffffff;
+        background-color: #333333; /* Sichtbare Farbe für Buttons */
+        border: 1px solid #333333;
         color: #ffffff;
         width: 44px;
         height: 44px;
@@ -812,12 +851,14 @@ html {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        padding-bottom: 4px;
+        font-size: 1.2rem;
+        line-height: 1;
+        padding: 0;
     }
 
     .app-btn:hover {
-        background-color: #ffffff;
-        color: #333;
+        background-color: #555555;
+        color: #ffffff;
     }
 }
 
@@ -853,7 +894,7 @@ html {
 .training-banner {
     position: relative;
     width: 100%;
-    min-height: 500px; /* Passt sich automatisch an, wenn der Text länger ist */
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -877,7 +918,7 @@ html {
 .training-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(248, 248, 248, 0.621); /* Bei Bedarf Transparenz anpassen */
+    background: rgba(248, 248, 248, 0.621);
     z-index: 2;
 }
 
@@ -888,7 +929,7 @@ html {
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    color: #020202; /* Weißer Text für den dunklen Hintergrund */
+    color: #020202;
     text-align: justify;
 }
 
@@ -904,15 +945,24 @@ html {
     margin: 0;
 }
 
-/* Mobil-Anpassung */
+/* Mobil-Anpassung isoliert für #training */
 @media (max-width: 768px) {
+    /* Hebt das width: 92% !important aus dem allgemeinen Media Query exakt auf */
+    #training {
+        width: 100% !important;
+        margin: 20px 0;
+        padding: 0 !important;
+    }
+
     .training-banner {
+        width: 100%;
         padding: 40px 0;
     }
-    
+
     .training-text {
-        width: 92% !important;
-        text-align: left; /* Auf Mobilgeräten liest sich Linksbündig meist besser */
+        width: 88% !important;
+        margin: 0 auto !important;
+        text-align: left;
     }
 }
 

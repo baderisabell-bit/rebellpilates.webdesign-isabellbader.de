@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/klaro@0.7.11/dist/klaro.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/klaro@0.7.11/dist/klaro.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,41 +18,49 @@
   <div class="site-title">
     <button id="lang-switch" data-i18n="lang_switch">EN</button>
     <p data-i18n="telefon">Telefon: +49 174 8238738</p>
-    <p data-i18n="email">EMail: rebellpilates@pm.me</p>
   </div>
 
   <a href="#" class="header-logo">
     <img src="images/logo-rebell-pilates.svg" alt="Rebell Pilates Logo">
   </a>
 
-  <button class="menu-toggle" aria-label="Menü öffnen">
-        <span></span>
-        <span></span>
-        <span></span>
+  <!-- Rechter Bereich: E-Mail & Burger-Button -->
+  <div class="header-right">
+    <p class="header-email" data-i18n="email">EMail: rebellpilates@pm.me</p>
+    <button class="menu-toggle" aria-label="Menü öffnen">
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
-  
-    <nav class="main-nav">
-        <a href="#pilates" data-i18n="pilates"><strong>P</strong>ilates</a>
-        <a href="#instruktor" data-i18n="instruktor"><strong>I</strong>nstrukteur</a>
-        <a href="#leistungsangebote" data-i18n="leistungsangebote"><strong>L</strong>eistungsangebote</a>
-        <a href="#apparate" data-i18n="apparate"><strong>A</strong>pparate</a>
-        <a href="#training" data-i18n="training"><strong>T</strong>raining</a>
-        <a href="#erfahrungen" data-i18n="erfahrungen"><strong>E</strong>rfahrungen</a>
-        <a href="#studio" data-i18n="studio"><strong>S</strong>tudio</a>
-    </nav>
+  </div>
+
+  <nav class="main-nav">
+    <a href="#pilates" data-i18n="pilates"><strong>P</strong>ilates</a>
+    <a href="#instruktor" data-i18n="instruktor"><strong>I</strong>nstrukteur</a>
+    <a href="#leistungsangebote" data-i18n="leistungsangebote"><strong>L</strong>eistungsangebote</a>
+    <a href="#apparate" data-i18n="apparate"><strong>A</strong>pparate</a>
+    <a href="#training" data-i18n="training"><strong>T</strong>raining</a>
+    <a href="#erfahrungen" data-i18n="erfahrungen"><strong>E</strong>rfahrungen</a>
+    <a href="#studio" data-i18n="studio"><strong>S</strong>tudio</a>
+  </nav>
 </header>
-<main>
 
 <section id="hero" class="hero-section">
-    <h1></h1>
     <div class="hero-img-wrapper">
-    <img src="images/pullup.jpg" alt="Pull-Up Pilates Übung">
+        <img src="images/pullup.jpg" alt="Pull-Up Pilates Übung">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Rebell Pilates</h1>
+                <h2 data-i18n="hero_description">Individuelles Einzeltraining für nachhaltige Kraft, Beweglichkeit und körperliche Balance.</h2>
+            </div>
+        </div>
     </div>
 </section>
 
 <section id="welcome">
     <div class="welcome-text">
-    <p data-i18n="welcome">Willkommen bei Rebell Pilates, wo das originale Körpertraining von Joseph Pilates unter voller Diskretion praktiziert wird. Pilates hat seine Methode entwickelt und Contrology genannt, um das strukturelle Gleichgewicht wiederherzustellen, den Körper auf intelligente Weise zu stärken und eine echte muskuläre Kontrolle zu entwickeln. Der Ansatz ist korrigierend, präzise und systematisch verwurzelt. Unser Unterricht folgt der traditionellen Methode auf authentischen Geräten, basierend auf den Patenten von Joseph Pilates. Jede Bewegung baut auf der vorherigen auf. Der Ablauf ist fließend und logisch. Jede Einheit hat einen Zweck. Dies ist diszipliniertes Training für langfristige strukturelle Gesundheit und Fitness. Wir stellen Qualität über Quantität. Bei Rebell Pilates Pilates ist jede Trainingseinheit Teil eines disziplinierten Systems, das auf strukturelle Integrität, funktionelle Kraft und lebenslange Beweglichkeit ausgerichtet ist. Erlebe originales Pilates so, wie es unterrichtet werden sollte, mit Präzision, Fokus und Integrität. Wenn dir personalisiertes Training und langfristiges Fitness wichtig sind,  ist Rebell Pilates für dich richtig. Der Name „Pilates“ ist rechtlich nicht geschützt und Rebell Pilates ist das einzige ausgestattete Studio in München, das nach der ursprünglichen Methode aus dem New Yorker Gym unterrichtet. 
+    <p data-i18n="welcome">Willkommen bei Rebell Pilates, wo das originale Körpertraining von Joseph Pilates unter voller Diskretion praktiziert wird. Pilates hat seine Methode entwickelt und Contrology genannt, um das strukturelle Gleichgewicht wiederherzustellen, den Körper auf intelligente Weise zu stärken und eine echte muskuläre Kontrolle zu entwickeln. Der Ansatz ist korrigierend, präzise und systematisch verwurzelt. Unser Unterricht folgt der traditionellen Methode auf authentischen Geräten, basierend auf den Patenten von Joseph Pilates. Jede Bewegung baut auf der vorherigen auf. Der Ablauf ist fließend und logisch. Jede Einheit hat einen Zweck. Dies ist diszipliniertes Training für langfristige strukturelle Gesundheit und Fitness. Wir stellen Qualität über Quantität. Bei Rebell Pilates Pilates ist jede Trainingseinheit Teil eines disziplinierten Systems, das auf strukturelle Integrität, funktionelle Kraft und lebenslange Beweglichkeit ausgerichtet ist.</p>
+    <p data-i18n="welcome_description"> Erlebe originales Pilates so, wie es unterrichtet werden sollte, mit Präzision, Fokus und Integrität. Wenn dir personalisiertes Training und langfristiges Fitness wichtig sind,  ist Rebell Pilates für dich richtig. Der Name „Pilates“ ist rechtlich nicht geschützt und Rebell Pilates ist das einzige ausgestattete Studio in München, das nach der ursprünglichen Methode aus dem New Yorker Gym unterrichtet. 
     </p>
     </div>
 </section>
@@ -130,11 +139,17 @@
 </section>
 
 <section id="training">
-    <div class="img-background">
-        <img src="images/reformerhandle.JPG" alt="Alice Talkington" class="about-profile-img">
+    <div class="training-banner">
+        <img src="images/reformerhandle.JPG" alt="Alice Talkington" class="training-bg-img">
+        <div class="training-overlay"></div>
+        <div class="training-text">
+            <h1 data-i18n="training">Training</h1>
+            <p data-i18n="trainingdescription">Gesunde Menschen ohne akute Verletzungen beginnen ihr Training in der Regel am Universal Reformer. Die vier gleichmäßig gespannten Federn geben dabei Orientierung und ermöglichen es der Trainerin, deine Körperausrichtung präzise wahrzunehmen und unmittelbar zu korrigieren. Bequeme Sportkleidung, die die Knöchel frei lässt, ist dafür ideal. Bitte verzichte auf Reißverschlüsse, da diese den Polsterbezug beschädigen können. Während des Trainings werden Socken getragen. Ein Handtuch und eine Wasserflasche kannst du gerne mitbringen.</p>
+            <p data-i18n="trainingdescription2">Der Reformer bildet das Herzstück des Trainings. Von hier aus lernst du nach und nach verschiedene Mattenübungen kennen, die du auch zu Hause praktizieren kannst. Eine regelmäßige Übungspraxis unterstützt dabei, das Gelernte zu festigen und Fortschritte nachhaltig in den Alltag zu integrieren. Im weiteren Verlauf werden die verschiedenen Geräte des Studios einbezogen, um deine Arbeit am Reformer zu vertiefen.</p>
+            <p data-i18n="trainingdescription3">Jede Einheit wird individuell auf deinen Körper, deine Tagesform und deine persönlichen Ziele abgestimmt. Die Trainerin setzt einen klaren Schwerpunkt und begleitet dich präzise durch das Training. Eine Einheit dauert in der Regel 50 Minuten.Richtig ausgeführt, unter fachkundiger Anleitung und mit authentischen Geräten, ist Contrology weit mehr als ein Training. Es ist eine langfristige Investition in körperliche Gesundheit und Lebensqualität. Mit jeder Einheit entwickelst du ein besseres Verständnis für deinen Körper und dafür, wie du die Prinzipien von Contrology in deinen Alltag integrieren kannst.</p>
+            <p data-i18n="trainingdescription4">Ob kurzfristige Ziele wie Rückbildung, die Vorbereitung auf einen Skiurlaub oder eine neue Sportart, mittelfristige Ziele wie die Reduzierung von Rückenschmerzen oder die Vorbereitung auf einen Marathon oder langfristige Ziele wie der Erhalt von Kraft und Beweglichkeit: Teile deine persönlichen Ziele bei der Terminvereinbarung mit. So kann das Training individuell auf dich und dein Leben abgestimmt werden.</p>
+        </div>
     </div>
-    <div class="training-text"></div>
-</div>
 </section>
 
 <section id="erfahrungen">
@@ -179,7 +194,8 @@
     <!-- Header bleibt ganz oben über die volle Breite -->
     <section class="contact-hero">
         <h1 data-i18n="contact_hero_h1">Studio</h1>
-        <p class="lead" data-i18n="contact_hero_lead">Lass uns mit deinem individuellen Training starten</p>
+        <p class="lead" data-i18n="contact_hero_lead">Rebell Pilates befindet sich im Souterrain und bietet Privatsphäre, Diskretion und Ruhe, fernab von überfüllten Fitnessstudios und Gruppenkursen. Große Fenster oberhalb der Räumlichkeiten sorgen für viel natürliches Tageslicht. Neben dem Trainingsraum befindet sich ein separater Umkleideraum mit Dusche.
+        <p class="lead" data-i18n="contact_hero_lead2">Das Studio befindet sich in der Georgenstein 14, gegenüber dem Isartal Tennis Park (tennispark-isartal.de) und dem Waldgasthof (www.hotelbuchenhain.de) in Buchenhain. Hinter dem Gebäude steht ein eigener Parkplatz zur Verfügung. Außerdem gibt es ausreichend Parkmöglichkeiten vor dem Gebäude und in den angrenzenden Straßen.
     </section>
 
     <!-- Grid für Nebeneinander-Darstellung (Text links, Map rechts) -->
@@ -194,9 +210,9 @@
                 <a href="tel:+491748238738" data-i18n="contact_info_phone_link">+49 174 8238738</a>
                 
                 <h4 data-i18n="contact_info_address">Adresse:</h4>
-                <p data-i18n="contact_info_address_value">Am Georgenstein 14, 82065 Baierbrunn</p>
+                <p data-i18n="contact_info_address_value">Am Georgenstein 14, </p>
+                <p>82065 Baierbrunn</p>
             </div>
-            <p class="contact-hours" data-i18n="contact_info_hours">Ich antworte werktags in der Regel innerhalb von 24 Stunden.</p>
         </aside>
 
         <section id="location" class="map-section">
@@ -221,10 +237,9 @@
             </div>
         </section> 
     </div>
-</section>
 
-<section class="contact-form-area">
-    <h2 data-i18n="contact_form_h2">Termin oder Anfrage</h2>
+    <section class="contact-form-area">
+    <h2 data-i18n="contact_form_h2">Kontakt</h2>
 
     <form action="https://formspree.io/f/mrewvyyv" method="POST" class="contact-form">
         <label for="name" data-i18n="contact_form_name">Name</label>
@@ -246,6 +261,7 @@
 
         <button type="submit" class="btn-primary" data-i18n="contact_form_submit">Absenden</button>
     </form>
+</section>
 </section>
 
 

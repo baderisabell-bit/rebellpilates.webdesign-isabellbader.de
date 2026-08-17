@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/klaro@0.7.11/dist/klaro.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/klaro@0.7.11/dist/klaro.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,19 +17,22 @@
 <header class="site-header">
   <div class="site-title">
     <button id="lang-switch" data-i18n="lang_switch">EN</button>
-    <p>Telefon: +49 174 8238738</p>
-    <p>EMail: rebellpilates@pm.me</p>
+    <p data-i18n="telefon">Telefon: +49 174 8238738</p>
   </div>
 
   <a href="#" class="header-logo">
     <img src="images/logo-rebell-pilates.svg" alt="Rebell Pilates Logo">
   </a>
 
-  <button class="menu-toggle" aria-label="Menü öffnen">
-        <span></span>
-        <span></span>
-        <span></span>
+  <!-- Rechter Bereich: E-Mail & Burger-Button -->
+  <div class="header-right">
+    <p class="header-email" data-i18n="email">EMail: rebellpilates@pm.me</p>
+    <button class="menu-toggle" aria-label="Menü öffnen">
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
+  </div>
   
     <nav class="main-nav">
         <a href="index.html#pilates"><strong>P</strong>ilates</a>
@@ -116,17 +120,17 @@
 </main>
 <footer class="site-footer">
         <div class="footer-col">
-            <h4>Kontakt</h4>
+            <h4 data-i18n="footer_contact">Kontakt</h4>
             <p>Rebell Pilates</p>
-            <p>Telefon: +49 174 8238738</p>
+            <p data-i18n="footer_phone">Telefon: +49 174 8238738</p>
             <p>Am Georgenstein 14</p>
             <p>82065 Baierbrunn</p>
         </div>
         <div class="footer-col">
-            <h4>Informationen</h4>
-            <a href="impressum.html">Impressum</a>
-            <a href="datenschutz.html">Datenschutz</a>
-            <a href="agb.html">Allgemeine Geschäftsbedingungen</a>
+            <h4 data-i18n="footer_information">Informationen</h4>
+            <a href="impressum.html" data-i18n="footer_impressum">Impressum</a>
+            <a href="datenschutz.html" data-i18n="footer_datenschutz">Datenschutz</a>
+            <a href="agb.html" data-i18n="footer_agb">Allgemeine Geschäftsbedingungen</a>
             <a href="#" onclick="return klaro.show();">Cookie-Einstellungen</a>
         </div>
     <div class="footer-bottom">

@@ -1,48 +1,71 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rebell Pilates - Alice Talikington</title>
+    <script 
+    id="Cookiebot" 
+    src="https://consent.cookiebot.com/uc.js" 
+    data-cbid="93647de7-a8af-4aba-8165-7fd681abe4a" 
+    data-blockingmode="auto" 
+    type="text/javascript"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/klaro@0.7.11/dist/klaro.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/klaro@0.7.11/dist/klaro.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="site-header">
-  <div class="site-title">
-    <button id="lang-switch" data-i18n="lang_switch">EN</button>
-    <p data-i18n="telefon">Telefon: +49 174 8238738</p>
-  </div>
+    <div class="site-title">
+        <button id="lang-switch" data-i18n="lang_switch">EN</button>
+        <a href="tel:+491748238738" class="header-phone-text" data-i18n="telefon">
+            Telefon: +49 174 8238738
+        </a>
+        <a href="tel:+491748238738"
+           class="header-icon header-phone-icon"
+           aria-label="Telefonnummer anrufen">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+    <a href="#" class="header-logo">
+        <img src="images/logo-rebell-pilates.svg" alt="Rebell Pilates Logo">
+    </a>
+    <div class="header-right">
+        <a href="mailto:rebellpilates@pm.me" class="header-email header-email-text" data-i18n="email">
+            EMail: rebellpilates@pm.me
+        </a>
+        <a href="mailto:rebellpilates@pm.me"
+           class="header-icon header-email-icon"
+           aria-label="E-Mail schreiben">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        <button class="menu-toggle" aria-label="Menü öffnen">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
 
-  <a href="#" class="header-logo">
-    <img src="images/logo-rebell-pilates.svg" alt="Rebell Pilates Logo">
-  </a>
-
-  <!-- Rechter Bereich: E-Mail & Burger-Button -->
-  <div class="header-right">
-    <p class="header-email" data-i18n="email">EMail: rebellpilates@pm.me</p>
-    <button class="menu-toggle" aria-label="Menü öffnen">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
-  
-    <nav class="main-nav">
-        <a href="index.html#pilates"><strong>P</strong>ilates</a>
-        <a href="index.html#instruktor"><strong>I</strong>nstrukteurin</a>
-        <a href="index.html#leistungsangebote"><strong>L</strong>eistungsangebote</a>
-        <a href="index.html#apparate"><strong>A</strong>pparate</a>
-        <a href="index.html#training"><strong>T</strong>raining</a>
-        <a href="index.html#erfahrungen"><strong>E</strong>rfahrungen</a>
-        <a href="#studio"><strong>S</strong>tudio</a>
-    </nav>
+  <nav class="main-nav">
+    <a href="#pilates" data-i18n="pilates"><strong>P</strong>ilates</a>
+    <a href="#instruktor" data-i18n="instruktor"><strong>I</strong>nstrukteur</a>
+    <a href="#leistungsangebote" data-i18n="leistungsangebote"><strong>L</strong>eistungsangebote</a>
+    <a href="#apparate" data-i18n="apparate"><strong>A</strong>pparate</a>
+    <a href="#training" data-i18n="training"><strong>T</strong>raining</a>
+    <a href="#erfahrungen" data-i18n="erfahrungen"><strong>E</strong>rfahrungen</a>
+    <a href="#studio" data-i18n="studio"><strong>S</strong>tudio</a>
+    <span class="nav-address">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>
+            Am Georgenstein 14<br>
+            82065 Baierbrunn
+        </span>
+    </span>
+  </nav>
 </header>
 <main>
 <section id="impressum">
@@ -57,7 +80,7 @@
                 82065 Baierbrunn<br>
                 Deutschland
             </p>
-            <p><strong>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:</strong> 368624031</p>
+            <p><strong>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG:</strong> DE 368624031</p>
         </div>
 
         <div class="impressum-block">
@@ -158,13 +181,13 @@
             <a href="impressum.html" data-i18n="footer_impressum">Impressum</a>
             <a href="datenschutz.html" data-i18n="footer_datenschutz">Datenschutz</a>
             <a href="agb.html" data-i18n="footer_agb">Allgemeine Geschäftsbedingungen</a>
-            <a href="#" onclick="return klaro.show();">Cookie-Einstellungen</a>
+            <a href="#" onclick="Cookiebot.renew(); return false;">Cookie-Einstellungen</a>
         </div>
     <div class="footer-bottom">
-        <p>&copy; 2026 Isabell Bader. <span data-i18n="footer_copyright">Alle Rechte vorbehalten.</span></p>
+        <p data-i18n="footer_copyright">&copy; 2026 Rebell Pilates – Alle Rechte vorbehalten. <br>
+            <small>Design & Umsetzung: <a href="https://www.webdesign-isabell-bader.de" target="_blank" rel="noopener noreferrer"> <small>Webdesign - Isabell Bader</small></a> </small></p>
     </div>
 </footer>
-    <script type="text/javascript" src="klaro-config.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

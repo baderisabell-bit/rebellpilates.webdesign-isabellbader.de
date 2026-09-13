@@ -11,44 +11,42 @@ const translations = {
     leistungsangebote: 'Leistungsangebote',
     apparate: 'Apparate',
     training: 'Training',
-    trainingdescription: 'Gesunde Menschen ohne akute Verletzungen beginnen ihr Training in der Regel am Universal Reformer. Die vier gleichmäßig gespannten Federn geben dabei Orientierung und ermöglichen es der Trainerin, deine Körperausrichtung präzise wahrzunehmen und unmittelbar zu korrigieren. Bequeme Sportkleidung, die die Knöchel frei lässt, ist dafür ideal. Bitte verzichte auf Reißverschlüsse, da diese den Polsterbezug beschädigen können. Während des Trainings werden Socken getragen. Ein Handtuch und eine Wasserflasche kannst du gerne mitbringen.',
-    trainingdescription2: 'Der Reformer bildet das Herzstück des Trainings. Von hier aus lernst du nach und nach verschiedene Mattenübungen kennen, die du auch zu Hause praktizieren kannst. Eine regelmäßige Übungspraxis unterstützt dabei, das Gelernte zu festigen und Fortschritte nachhaltig in den Alltag zu integrieren. Im weiteren Verlauf werden die verschiedenen Geräte des Studios einbezogen, um deine Arbeit am Reformer zu vertiefen.',
-    trainingdescription3: 'Jede Einheit wird individuell auf deinen Körper, deine Tagesform und deine persönlichen Ziele abgestimmt. Die Trainerin setzt einen klaren Schwerpunkt und begleitet dich präzise durch das Training. Eine Einheit dauert in der Regel 50 Minuten. Richtig ausgeführt, unter fachkundiger Anleitung und mit authentischen Geräten, ist Contrology weit mehr als ein Training. Es ist eine langfristige Investition in körperliche Gesundheit und Lebensqualität. Mit jeder Einheit entwickelst du ein besseres Verständnis für deinen Körper und dafür, wie du die Prinzipien von Contrology in deinen Alltag integrieren kannst.',
-    trainingdescription4: 'Ob kurzfristige Ziele wie Rückbildung, die Vorbereitung auf einen Skiurlaub oder eine neue Sportart, mittelfristige Ziele wie die Reduzierung von Rückenschmerzen oder die Vorbereitung auf einen Marathon oder langfristige Ziele wie der Erhalt von Kraft und Beweglichkeit: Teile deine persönlichen Ziele bei der Terminvereinbarung mit. So kann das Training individuell auf dich und dein Leben abgestimmt werden.',
+    trainingdescription: 'Gesunde Menschen ohne Verletzungen fangen normalerweise am Universal Reformer an. Die vier gleichmäßigen Federn wirken wie ein Raster und ermöglichen es der Trainerin, deine Ausrichtung schnell zu korrigieren. Bitte trage bequeme Sportkleidung, die deine Knöchel freilegt, damit deine Ausrichtung leichter erkannt werden kann. Wir vermeiden Kleidung mit Reißverschlüssen, da diese die Polsterung beschädigen können. Während des Workouts werden Socken getragen. Du kannst gerne ein Handtuch und eine Flasche Wasser mitbringen. ',
+    trainingdescription2: 'Um Fortschritte zu erzielen und konsequent zu bleiben, lernst du 3-5 Mattenübungen, die du auch zu Hause durchführen kannst. Wir werden danach die gesamte Ausstattung des Studios gebrauchen, um dein Training am Reformer – das Herzstück und die Grundlage für Mattenübungen – weiterzuentwickeln. Für jede deiner Trainingseinheiten wird die Instrukteurin ein individuell auf dich maßgeschneidertes Workout mit einem klaren Schwerpunkt und einem gut durchdachten Abschluss erstellen. Ein Workout dauert in der Regel 50 Minuten. Wenn Contrology mit fachkundiger Anleitung und originaler Ausrüstung korrekt ausgeführt wird, wird es zu einer Investition, die deine Lebensqualität steigert. ',
+    trainingdescription3: 'Jedes Training wird dir ein besseres Verständnis dafür vermitteln, wie du Contrology täglich in deinem Alltag integrieren kannst. Wenn du ein kurzfristiges Ziel hast (Rückbildung, bevorstehende Skireise oder Aufnahme einer neuen Sportart) oder ein mittelfristiges Ziel verfolgst (Linderung von Rückenschmerzen, Stärkung Ihres Beckenbodens, Vorbereitung auf einen Marathon) oder ein langfristiges Ziel anstrebst (schmerzfrei mit deinen Enkelkindern spielen, Osteoporose vorbeugen, Sarkopenie verlangsamen), teile dies deiner Instrukteurin bitte bei der Terminvereinbarung mit, damit sie dies bei der Planung deines Trainingsprogramms berücksichtigen kann. ',
     erfahrungen: 'Erfahrungen',
     studio: 'Studio',
-    welcome: 'Willkommen bei Rebell Pilates, wo das originale Körpertraining von Joseph Pilates unter voller Diskretion praktiziert wird. Pilates hat seine Methode entwickelt und Contrology genannt, um das strukturelle Gleichgewicht wiederherzustellen, den Körper auf intelligente Weise zu stärken und eine echte muskuläre Kontrolle zu entwickeln. Der Ansatz ist korrigierend, präzise und systematisch verwurzelt. Unser Unterricht folgt der traditionellen Methode auf authentischen Geräten, basierend auf den Patenten von Joseph Pilates. Jede Bewegung baut auf der vorherigen auf. Der Ablauf ist fließend und logisch. Jede Einheit hat einen Zweck. Dies ist diszipliniertes Training für langfristige strukturelle Gesundheit und Fitness. Wir stellen Qualität über Quantität. Bei Rebell Pilates Pilates ist jede Trainingseinheit Teil eines disziplinierten Systems, das auf strukturelle Integrität, funktionelle Kraft und lebenslange Beweglichkeit ausgerichtet ist.',
-    welcome_description: 'Erlebe originales Pilates so, wie es unterrichtet werden sollte, mit Präzision, Fokus und Integrität. Wenn dir personalisiertes Training und langfristiges Fitness wichtig sind,  ist Rebell Pilates für dich richtig. Der Name „Pilates“ ist rechtlich nicht geschützt und Rebell Pilates ist das einzige ausgestattete Studio in München, das nach der ursprünglichen Methode aus dem New Yorker Gym unterrichtet.',
+    welcome: 'Willkommen bei Rebell Pilates, wo du die ursprüngliche Methode von Joseph Pilates in ruhiger und privater Atmosphäre erleben kannst. Pilates hat seine Methode Contrology genannt und entwickelt, um das strukturelle Gleichgewicht wiederherzustellen, den Körper auf intelligente Weise zu stärken und eine echte muskuläre Kontrolle zu entwickeln. Der Ansatz ist korrigierend, präzise und systematisch verwurzelt. Unser Unterricht folgt der traditionellen Methode auf über Dutzend authentischen Geräten, basierend auf den ursprünglichen Patenten von Joseph Pilates. Der Name „Pilates“ ist rechtlich nicht geschützt und Rebell Pilates ist das einzige ausgestattete Studio im Landkreis München, das nach der ursprünglichen Methode aus dem New Yorker Gym unterrichtet. Jede Einheit hat einen Zweck. Der Ablauf ist logisch und maßgeschneidert. Jede Bewegung baut auf der vorherigen auf. Dies ist diszipliniertes Training für langfristige Gesundheit und Fitness. Wir stellen Qualität über Quantität. Bei Rebell Pilates Pilates ist jede Trainingseinheit Teil eines ganzheitlichen Systems, das auf strukturelle Integrität, funktionelle Kraft und lebenslange Beweglichkeit ausgerichtet ist. Erlebe originales Pilates so, wie es gelernt werden sollte, mit Präzision, Fokus und Integrität. Wenn du dich unabhängig vom Alter 10 Jahre jünger fühlen willst, dann ist Rebell Pilates für dich richtig.',
     youtubeNotice: 'Mit dem Klick auf "Play" erklären Sie sich damit einverstanden, dass Daten an YouTube übermittelt werden.',
-    josephpilates: 'Hubertus Joseph Pilates (1883-1967) entwickelte im 20. Jahrhundert eine Bewegungstechnik, die sich als Zwei-Wege-Dehnung mit starkem Zentrum zusammenfassen lässt. Sie stärkt die Rücken-, Rumpf-, und Bauchmuskeln, da alle Bewegungen aus der Mitte entstehen. Die Methode wird auf mehreren speziellen Geräten ausgeführt, so dass das neuromuskuläre Gedächtnis lernt, die Technik in verschiedenen Situationen anzuwenden . Die Sprungfedern assistieren die Muskeln und fordern sie gleichzeitig heraus, ohne die Gelenke zu belasten. Haltung, Beweglichkeit, Koordination und Kraft verbessern sich ganz natürlich durch die Übungen selbst. Contrology ist so konzipiert, dass die korrekte Ausrichtung und strukturelle Korrektur in jede Bewegung integriert sind, wodurch sicherere Bewegungen, schnellere Fortschritte, nachhaltige Ergebnisse und ein geringeres Verletzungsrisiko gewährleistet werden. Menschen beginnen mit Pilates Training zur Haltungskorrektur, zur Linderung chronischer Beschwerden, zur Verbesserung der Beweglichkeit, für mehr Rumpfstabilität und langfristige Kraft. Sie bleiben dabei, weil die Veränderungen messbar, funktional und nachhaltig sind.',
+    josephpilates: 'Hubertus Joseph Pilates (1883-1967) entwickelte im 20. Jahrhundert Contrology, eine einzigartige Bewegungstechnik, die sich als eine Dehnung in zwei Richtungen vom starken Zentrum zusammenfassen lässt. Sie stärkt die Rücken-, Rumpf-, und Bauchmuskeln, da alle Bewegungen aus der Mitte heraus entstehen. Die Methode wird auf mehreren speziellen Geräten mit Federn ausgeführt, so dass das neuromuskuläre Gedächtnis lernt, die Technik in verschiedenen Situationen anzuwenden. Daher sind wenige Wiederholungen gebraucht, um die Bewegung beherrschen zu können. Die Sprungfedern assistieren die Muskeln und fordern sie gleichzeitig heraus, ohne die Gelenke zu belasten. Haltung, Beweglichkeit, Koordination und Kraft verbessern sich ganz natürlich durch die Übungen selbst. Contrology ist so konzipiert, dass die korrekte Ausrichtung und strukturelle Korrektur in jede Bewegung integriert sind, wodurch sicherere Bewegungen, schnellere Fortschritte, nachhaltige Ergebnisse und ein geringeres Verletzungsrisiko gewährleistet werden. Menschen beginnen mit Contrology zur Haltungskorrektur, zur Linderung chronischer Beschwerden, zur Verbesserung der Beweglichkeit, für mehr Rumpfstabilität und langfristige Kraft. Sie bleiben dabei, weil die Veränderungen messbar, funktional und nachhaltig sind.',
     instruktorin: 'Instrukteur',
-    instruktorin_text: 'Alice R. Talkington trainierte u.a. mit vormaligen Schülern von Pilates wie z.B. Jay Grimes (1940-2024) und Edwina Fontaine (1928-2014). Nach der Ausbildung hat Alice in London, Genf, Wien und München als Instrukteurin gearbeitet. 2015 veranstaltete sie Deutschlands ersten großen Kongress für Contrology mit Gratz Pilates (gratzpilates.com) als Equipment Sponsor. Während Alices vierjähriges Aufenthalts in Berlin war ihr Coach Moses Urbano (www.accesspilates.com), ein Protégé von Romana Kryzanowska, die nach dem Tod von Pilates die Führung des originalen Studios übernommen hatte. Bevor sie Rebell Pilates 2024 in Regensburg gründete, war Alice in Frankreich, Hong Kong und USA tätig. Sie ist eine Spezialistin für darstellende Künstler. Zu ihren ehemaligen Kunden gehören Christine Kaufmann, Opernsängerin Albina Shagimuratova, Schauspielerin Astrid Posner, Musiker David Alan Cooper und Schriftsteller Benjamin von Stuckrad-Barre. Zudem hat Alice mit Profisportlern gearbeitet, beispielsweise von den Boston Red Sox, dem Bayerischen Staatsballett, und dem FC Bayern. Alice bildet sich fortlaufend mit weltweit renommierten Trainerinnen weiter, u.a. Inelia Garcia, Kathryn Ross-Nash, und MeJo Wiggin.',
+    instruktorin_text: 'Ehemalige Tänzerin Alice R. Talkington trainierte u.a. mit vormaligen Schülern von Joe und Clara Pilates wie z.B. Jay Grimes (1940-2024) und Edwina Fontaine (1928-2014). Nach der Ausbildung  bei Romana’s Pilates arbeitete Alice in London, Genf, Wien und München als Instrukteurin. 2015 veranstaltete sie Deutschlands ersten Kongress für Contrology mit Gratz Pilates (gratzpilates.com) als Equipment Sponsor. Während ihres vierjährigen Aufenthalts in Berlin war Alices Coach Moses Urbano (www.accesspilates.com), ein  Protégé von Romana Kryzanowska, ehemalige Schülerin von Pilates, die die Führung des umgezogenen Studios nach Joes Tod übernommen hatte. Bevor sie 2024 Rebell Pilates in Regensburg gründete, war Alice in Frankreich, Hong Kong und den USA tätig. Zu ihren ehemaligen Kunden gehören Christine Kaufmann (1945-2017), Opernsängerin Albina Shagimuratova, Schauspielerin Astrid Posner,  Musiker David Alan Cooper und Schriftsteller Benjamin von Stuckrad-Barre. Alice bildet sich fortlaufend mit weltweit renommierten Trainerinnen fort, u.a. Inelia Garcia, Dorothee Vandewalle und MeJo Wiggin.',
     leistungsangebote: 'Leistungsangebote',
-    leistungsangebotedescription: 'Rebell Pilates bietet etwas, das in der heutigen überfüllten Fitnesslandschaft selten geworden ist: echtes, originales Contrology, mit Tiefe, Integrität und Zielbewusstsein unterrichtet. In einer Zeit, in der viele Studios Trends, hohe Teilnehmerzahlen oder schnelle Gruppentrainings in den Vordergrund stellen, konzentrieren wir uns auf die Qualität des Unterrichts, nicht auf die Quantität. Unser Ziel ist es, dir zu helfen, die beste Version deines Körpers durch die  ursprüngliche, von Joseph Pilates entwickelte Methode zu erreichen – ein ganzheitliches Körpertraining, das auf Präzision, Rhythmus und Kontrolle basiert. Wir bieten keine Variante von Pilates an. Wir bieten Contrology an – so, wie es ursprünglich in Form von Einzeltraining unterrichtet werden sollte. Daher bieten wir ausschließlich privates Training im geschützten Raum an.',
+    leistungsangebotedescription: 'Rebell Pilates bietet etwas, das in der heutigen überfüllten Fitnesslandschaft selten geworden ist: echtes, originales Contrology  mit Tiefe, Integrität und Zielbewusstsein. In einer Zeit, in der viele “Pilates” Studios 3 bis 14 Teilnehmer auf Reformer-ähnlichen Geräten in den Vordergrund stellen, konzentrieren wir uns auf deine Individualität und die Qualität deiner Bewegungen, nicht auf die Quantität. Unser Ziel ist es, dir zu helfen, die beste Version deines Körpers durch die  ursprüngliche, von Joseph Pilates entwickelte Methode zu erreichen – ein ganzheitliches Körpertraining, das auf Präzision, Rhythmus und Kontrolle basiert. Wir bieten keine Variante von Pilates an. Wir bieten Contrology an – so, wie es ursprünglich in Form von Einzeltraining unterrichtet werden sollte. Trainingseinheiten bei uns sind 1:1 Termine ohne Raumteilung, Gruppendruck, Ablenkungen oder Zeitverschwendung. Dabei stehen dir alle Geräte zur Verfügung. Wenn du herausfinden möchtest, ob Contrology das Richtige für dich ist, buche bitte drei Einzelstunden im laufenden Monat als Teaser für €269. Solltest du entscheiden, mit dem Training fortzusetzen, ist bis Ende des laufenden Monats  €90 pro Einheit zu entrichten. Dieses einmalige Einführungsangebot ist mit einem Geschenkabo bei Theatern vergleichbar.',
     apparate: 'Apparate',
-    apparatedescription: 'Genau so wie man auf einem englischen Sattel nicht Western reiten kann, ist es wichtig, Geräte mit den richtigen Abmessungen und Federspannung zu verwenden, um eine sichere und angemessene Technik zu gewährleisten. Joseph Pilates baute mit seinem Bruder Friedrich eigene Geräte. Insgesamt hatte Pilates 26 Patente. Bei Rebell Pilates trainierst du auf erstklassigen und authentischen Geräten, die nach den Spezifikationen von Joseph Pilates produziert werden.',
+    apparatedescription: 'Genau so wie man auf einem englischen Sattel nicht Western reiten kann, ist es wichtig, Ausrüstung mit den richtigen Abmessungen und Federspannung zu verwenden, um eine sichere und angemessene Technik zu gewährleisten. Joseph Pilates baute mit seinem Bruder Friedrich eigene Geräte. Insgesamt hatte Pilates 26 Patente, beginnend 1922 mit dem Foot Corrector. Das Universal Reformer ist das bekannteste Großgerät, das sich 1924 patentieren ließ, bevor Pilates 1926 nach New York City auswanderte. Das von Pilates konzipierte Universal Reformer unterscheidet sich von anderen ähnlich aussehenden “Reformern”, indem der Rahmen nur 80 Zoll lang ist und es über nur vier Federn mit gleichem Widerstand verfügt. Die Riemen sind aus Leder gefertigt, nicht aus Seil, und bieten eine langanhaltende Nutzung. Die Räder für die Lederriemen sind direkt am Rahmen angesetzt und nicht auf sogenannten Risers, die den Federwiderstand und den Wickel der Bewegungen deutlich verändern. Die Fußstange ist nicht arretiert und kann mit den Füßen abgesenkt werden, wodurch fließende Übergänge zwischen den Übungen ermöglicht werden. Diese Eigenschaften ermöglichen es, ein Workout am Reformer ohne Pause der Reihe nach auszuführen und so ein intensives Cardio-Training zu absolvieren, was nicht möglich wäre, wenn man nach jeder Übung das Gerät einrichten oder anpassen muss. Joseph Pilates schloss sein New Yorker Studio immer  im August für die Sommerpause. Fortgeschrittenen Schülern baute und schenkte er ein Wunda Chair, ein Sitzmöbelstück, das in ein kompaktes Reformer verwandelt werden kann. Neben dem Wunda Chair baute Pilates das High Chair mit den stärksten Federn sowie das Armchair mit den leichtesten Federn. Noch kleineren und leichteren Federwiderstand gibt es bei Kleingeräten wie beim Toe Tensometer. Apparate ohne Federspannung umfassen verschiedene Matten und Barrels, die man normalerweise nur in echten Pilates-Studios sieht. Pilates hat nicht nur das Training, sondern auch die Geräte auf Kunden abgestimmt. Er hat zum Beispiel das Pedi-Pole für die amerikanische Sopranistin Rise Stevens entwickelt.',
     testimonials: 'Erfahrungen',
-    testimonial1: '"Ich hatte schon immer mit Problemen im unteren Rücken und im Schulterbereich zu kämpfen, aber das Training mit Alice hat für mich einen echten Unterschied gemacht. Seit ich mit ihren Pilates Einheiten begonnen habe, hat sich meine Haltung spürbar verbessert und ich merke einen deutlichen Unterschied in meiner Kraft. Alices fundiertes Wissen über den menschlichen Körper zeigt sich in jeder Einheit. Durch ihre Expertise stellt sie sicher, dass jede Übung sowohl effektiv als auch sicher ist. Außerdem schafft sie es auf eine tolle Art und Weise, die Einheiten abwechslungsreich und motivierend zu gestalten, sodass ich mich jedes Mal darauf freue. Ich kann Alice jedem wärmstens empfehlen, der auf der Suche nach einer kompetenten, einfühlsamen und unterstützenden Pilates Trainerin ist!"',
-    testimonial1_author: 'Dr. Amy Kim, DDS - übersetzt aus dem Englischen',
+    testimonial1: 'Ich habe an einem dreiwöchigen Pilatesprogramm mit Alice von Rebell Pilates teilgenommen. Als Arzt weiß ich um die Bedeutung einer guten Rückenschule, um Mobilität, Belastbarkeit und Lebensfreude bis ins hohe Alter zu erhalten. Dementsprechend sah ich meinen Kurs bei Rebell Pilates mit Spannung an. Auch ohne Vorerfahrung im Bereich Pilates holte mich Alice bei meinem aktuellen Kenntnisstand ab und passte die Übungen individuell an mein physisches Niveau an. In dem modern ausgestatteten Studio leitete sie mich bei der Ausführung der Übungen professionell an. Die Kombination aus geführten Übungen an Geräten und freien Körperübungen sicherte eine ausgewogene Belastung und gezielte Förderung der Kernaspekte Kraft und Flexibilität. Alices langjährige Erfahrung im Bereich Pilates zeigte sich in ihrem geschulten Auge und dem Feedback zur Ausführung der einzelnen Übungen. Dabei lag der Fokus stets auf konkreter Ausübung, um einen rückenschonenden Bewegungsablauf zu gewährleisten. Die Trainingseinheiten waren fordernd, doch durch Alices lebendige und positive Art fühlte ich mich nie überfordert. Bereits nach drei Wochen merkte ich, wie sich meine Muskulatur an die neuen funktionellen Anforderungen anpasste und ich mit einer neuen Leichtigkeit im Rückenbereich durch die Woche ging. Zum Ende jeder Trainingseinheit verließ ich das Studio von Rebell Pilates glücklich, angenehm aktiviert und mit Lust auf die nächste Einheit.',
+    testimonial1_author: 'Dr. med Leonard Kierer',
     testimonial2: '"Pilates hat mir geholfen, fokussierter zu sein und meine innere Mitte zu finden und dabei ruhig und gelassen zu bleiben. Ich glaube, dass mir Pilates den entscheidenden Vorteil verschafft hat, als ich mich auf ein wichtiges Vorsprechen vorbereitet habe und auch dabei, im Beruf über mich hinauszuwachsen. Für mich ist Pilates ein Konzept für ein gesundes Leben, das ich regelmäßig in meinen Alltag integrieren kann. Es wurde entwickelt, um Körper und Geist zu stärken, und man kann es täglich machen, ohne danach völlig erschöpft zu sein und trotzdem ein großartiges Training zu bekommen. Das ist für mich die grundlegende Bedeutung von Pilates in meinem Leben. Ich kehre immer wieder dazu zurück und bin jedes Mal froh darüber!"',
-    testimonial2_author: 'David Alan Cooper, stellvertretender Solohornist beim Los Angeles Philharmonic - übersetzt aus dem Englischen',
-    testimonial3: '"Ich habe schon immer davon geträumt, Pilates auszuprobieren oder zu machen, hatte aber nie die Gelegenheit dazu. Letzten April kam mir ganz spontan der Gedanke, es endlich einmal auszuprobieren. Deshalb habe ich recherchiert, ob es hier überhaupt angeboten wird. Zum Glück bin ich dabei auf Rebell Pilates gestoßen und habe mich darüber informiert. Ich dachte sofort: Das ist perfekt für mich – vor allem, weil es sich um ein individuelles Eins-zu-eins-Training handelt. Daraufhin habe ich Alice direkt eine E-Mail geschrieben – sie ist eine sehr nette und geduldige Person und Trainerin. Das Training hat mir wirklich sehr geholfen, insbesondere im Hinblick auf meine persönlichen Ziele: die Rückenschmerzen zu reduzieren, die ich durch meine Arbeit bekomme, etwas beweglicher zu werden und vieles mehr. Ich kann Rebell Pilates nur wärmstens empfehlen: Die Ausstattung ist perfekt, Alice ist großartig darin, Pilates anzuleiten und zu vermitteln, und die Termine sind sehr flexibel und zeitsparend. Vielen lieben Dank!"',
-    testimonial3_author: 'Venette Segundo, Krankenpflegerin - übersetzt aus dem Englischen',
+    testimonial2_author: 'Dr. med Annalisa De Rosa',
+    testimonial3: 'Alice ist eine ganz hervorragende Pilatestrainerin. Ihr Studio ist perfekt ausgestattet und sie nutzt die Geräte mit großer Kenntnis sehr effektiv. Ich bin immer wieder verwundert über ihr breites Spektrum an Übungen, die sie für meine Beschwerden zielgerichtet einsetzt. Pilatestraining auf ganz hohem Niveau. Ich mache Pilates (mangels guter Trainer mit vielen Unterbrechungen) seit 40 Jahren.',
+    testimonial3_author: 'Dr. Waltraud Wörle',
     contact_hero_h1: 'Studio',
-    contact_hero_lead: 'Rebell Pilates befindet sich im Souterrain und bietet Privatsphäre, Diskretion und Ruhe, fernab von überfüllten Fitnessstudios und Gruppenkursen. Große Fenster oberhalb der Räumlichkeiten sorgen für viel natürliches Tageslicht. Neben dem Trainingsraum befindet sich ein separater Umkleideraum mit Dusche.',
-    contact_hero_lead2: 'Das Studio befindet sich in der Georgenstein 14, gegenüber dem Isartal Tennis Park (tennispark-isartal.de) und dem Waldgasthof (www.hotelbuchenhain.de) in Buchenhain. Hinter dem Gebäude steht ein eigener Parkplatz zur Verfügung. Außerdem gibt es ausreichend Parkmöglichkeiten vor dem Gebäude und in den angrenzenden Straßen.',
-    contact_info_h2: 'Direkter Kontakt',
+    contact_hero_lead: 'Rebell Pilates liegt im Souterrain und bietet volle Diskretion an - fernab von vollen Fitnessstudios und Gruppenkursen. Große Fenster über den Räumlichkeiten sorgen für ausreichend Tageslicht. Ein separater Umkleideraum mit Dusche befindet sich neben dem Trainingsraum. Das Studio befindet sich am Georgenstein 14 gegenüber dem Tennispark Isartal (tennispark-isartal.de) und dem Waldgasthof (www.hotelbuchenhain.de) in Buchenhain und verfügt über einen ausgewiesenen Stellplatz hinter dem Gebäude.',
+    contact_hero_lead2: 'Es gibt genügend Parkplätze vor dem Gebäude und auf den angrenzenden Straßen. Mit dem Auto ist das Studio über die Wolfratshauser Str. und das Abbiegen auf den Schulweg erreichbar. Mit öffentlichen Verkehrsmitteln ist Rebell Pilates mit der S7 erreichbar. Das Studio liegt 350 Meter von der Haltestelle Buchenhain entfernt. In Buchenhain angekommen, begibst du dich auf der Forststraße Richtung Süden. Nach 50 Metern biegst du links Am Einfang ab und nach 270 Meter hast du das Ziel erreicht. Vor der Haustür sind mehrere Stellplätze für Fahrräder vorhanden.',
+    contact_info_h2: 'Kontakt',
     contact_info_email: 'E-Mail:',
     contact_info_email_link: 'rebellpilates@pm.me',
     contact_info_phone: 'Telefonnummer:',
     contact_info_phone_link: '+49 174 8238738',
     contact_info_address: 'Adresse:',
     contact_info_address_value: 'Am Georgenstein 14, 82065 Baierbrunn',
+    booking_h2: 'Hier buchen',
     location_h2: 'Standort',
     location_address: 'Am Georgenstein 14, 82065 Baierbrunn',
     location_hours: 'Öffnungszeiten: nach Vereinbarung',
     location_map: 'Karte anzeigen',
-    contact_form_h2: 'Kontakt',
     contact_form_name: 'Name',
     contact_form_email: 'E-Mail',
     contact_form_message: 'Nachricht',
@@ -61,7 +59,9 @@ const translations = {
     footer_impressum: 'Impressum',
     footer_datenschutz: 'Datenschutz',
     footer_agb: 'Allgemeine Geschäftsbedingungen',
-    footer_phone: 'Telefon: +49 174 8238738'
+    footer_phone: 'Telefon: +49 174 8238738',
+    cookie_video: 'Um dieses Video zu sehen, akzeptieren Sie bitte die Marketing-Cookies.',
+    cookie_btn: 'Cookie-Einstellungen ändern'
 },
     en: {
     hero_description: 'Personalized one-on-one training for lasting strength, flexibility, and physical balance.',
@@ -98,22 +98,23 @@ const translations = {
     testimonial3_author: 'Venette Segundo, nurse',
     contact_hero_h1: 'Studio',
     contact_hero_lead: 'Rebell Pilates is located at souterrain level and offers privacy, discretion and anonymity—away from crowded gyms and group classes. Large windows above the premises provide plenty of natural daylight. A separate changing room with a shower is located next to the training room. The studio is located at Georgenstein 14, opposite the Isartal Tennis Park (tennispark-isartal.de) and the Waldgasthof (www.hotelbuchenhain.de) in Buchenhain, and has a designated parking space behind the building. There is plenty of parking in front of the building and on the adjacent streets.',
-    contact_info_h2: 'Direct Contact',
+    contact_info_h2: 'Contact Us',
     contact_info_email: 'E-Mail:',
     contact_info_email_link: 'rebellpilates@pm.me',
-    contact_info_phone: 'Phonenumber:',
+    contact_info_phone: 'Phone:',
     contact_info_phone_link: '+49 174 8238738',
     contact_info_address: 'Address:',
     contact_info_address_value: 'Am Georgenstein 14, 82065 Baierbrunn',
-    location_h2: 'Location',
+    location_h2: 'Visit Us',
     location_address: 'Am Georgenstein 14, 82065 Baierbrunn',
+    booking_h2: 'Book',
+    booking: 'book your appointment with us',
     location_hours: 'Opening Hours: by appointment',
     location_map: 'Show Map',
-    contact_form_h2: 'Contact',
     contact_form_name: 'Name',
     contact_form_email: 'E-Mail',
     contact_form_message: 'Message',
-    contact_form_telefon: 'Phonenumber (optional)',
+    contact_form_telefon: 'Phone(optional)',
     contact_form_submit: 'Submit',
     contact_form_success: 'Thank you for your message! I will get back to you as soon as possible.',
     contact_form_error: 'There was a problem sending your message. Please try again later.',
@@ -122,7 +123,9 @@ const translations = {
     footer_impressum: 'Imprint',
     footer_datenschutz: 'Privacy Policy',
     footer_agb: 'General Terms and Conditions',
-    footer_phone: 'Phone: +49 174 8238738'
+    footer_phone: 'Phone: +49 174 8238738',
+    cookie_video: 'To view this video, please accept marketing cookies.',
+    cookie_btn: 'Accept Cookies'
     }   
 };
 
@@ -188,17 +191,20 @@ function currentTestimonial(index) {
 document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.querySelector(".menu-toggle");
     const mainNav = document.querySelector(".main-nav");
+    const siteHeader = document.querySelector(".site-header");
     const navLinks = document.querySelectorAll(".main-nav a");
 
     // Menü öffnen/schließen
     menuToggle.addEventListener("click", () => {
         mainNav.classList.toggle("active");
+        siteHeader.classList.toggle("nav-open");
     });
 
     // Menü schließen beim Klick auf einen Link
     navLinks.forEach(link => {
         link.addEventListener("click", () => {
             mainNav.classList.remove("active");
+            siteHeader.classList.remove("nav-open");
         });
     });
 });
@@ -275,4 +281,201 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+/*Hero-Bils*/
+document.addEventListener("DOMContentLoaded", () => {
+
+    const slides = document.querySelectorAll(".hero-slide");
+    const prevButton = document.querySelector(".hero-prev");
+    const nextButton = document.querySelector(".hero-next");
+
+    if (!slides.length) return;
+
+    let currentSlide = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+        slides.forEach(slide => {
+            slide.classList.remove("active");
+        });
+
+        currentSlide = (index + slides.length) % slides.length;
+        slides[currentSlide].classList.add("active");
+    }
+
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+
+    function startSlider() {
+        slideInterval = setInterval(nextSlide, 4000);
+    }
+
+    function resetSlider() {
+        clearInterval(slideInterval);
+        startSlider();
+    }
+
+    nextButton.addEventListener("click", () => {
+        nextSlide();
+        resetSlider();
+    });
+
+    prevButton.addEventListener("click", () => {
+        prevSlide();
+        resetSlider();
+    });
+
+    startSlider();
+
+});
+
+/*Apparate-Gallery*/
+document.addEventListener("DOMContentLoaded", () => {
+    const gallery = document.querySelector(".apparate-gallery");
+    const prevButton = document.querySelector(".app-prev");
+    const nextButton = document.querySelector(".app-next");
+
+    if (!gallery || !prevButton || !nextButton) return;
+
+    const images = gallery.querySelectorAll(".image-block");
+    let currentIndex = 0;
+
+    function showImage(index) {
+        currentIndex = (index + images.length) % images.length;
+
+        gallery.scrollTo({
+            left: images[currentIndex].offsetLeft,
+            behavior: "smooth"
+        });
+    }
+
+    nextButton.addEventListener("click", () => {
+        showImage(currentIndex + 1);
+    });
+
+    prevButton.addEventListener("click", () => {
+        showImage(currentIndex - 1);
+    });
+});
+
 /*Kontaktformular*/
+document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.querySelector(".contact-form");
+
+    if (contactForm) {
+        contactForm.addEventListener("submit", async function (e) {
+            e.preventDefault(); // Verhindert das Neuladen der Seite
+
+            const form = e.target;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalBtnText = submitBtn.innerHTML;
+
+            // Sprache auslesen (prüft den Text des Sprach-Buttons)
+            const langBtn = document.getElementById("lang-switch");
+            // Wenn der Button "DE" anzeigt, ist aktuell EN aktiv (und umgekehrt)
+            const currentLang = langBtn && langBtn.textContent.trim().toUpperCase() === "DE" ? "en" : "de";
+
+            // Übersetzungen für Rückmeldungen & Status
+            const translations = {
+                de: {
+                    sending: "Wird gesendet...",
+                    success: "Vielen Dank! Deine Nachricht wurde erfolgreich gesendet. Wir melden uns in Kürze.",
+                    errorGeneric: "Beim Senden ist ein Fehler aufgetreten.",
+                    errorNetwork: "Netzwerkfehler: Bitte überprüfe deine Internetverbindung und versuche es erneut."
+                },
+                en: {
+                    sending: "Sending...",
+                    success: "Thank you! Your message has been sent successfully. We will get back to you shortly.",
+                    errorGeneric: "An error occurred while sending your message.",
+                    errorNetwork: "Network error: Please check your internet connection and try again."
+                }
+            };
+
+            const t = translations[currentLang] || translations.de;
+
+            // Honeypot (Spam-Schutz) prüfen
+            const gotchaInput = form.querySelector('input[name="_gotcha"]');
+            if (gotchaInput && gotchaInput.value !== "") {
+                return; // Bots stumm abfangen
+            }
+
+            // Bestehende Rückmeldungen entfernen
+            const existingAlert = form.querySelector(".form-alert");
+            if (existingAlert) {
+                existingAlert.remove();
+            }
+
+            // Formulardaten sammeln
+            const formData = new FormData(form);
+
+            // Button-Status ändern
+            submitBtn.disabled = true;
+            submitBtn.style.opacity = "0.7";
+            submitBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> ${t.sending}`;
+
+            try {
+                const response = await fetch(form.action, {
+                    method: form.method,
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                });
+
+                if (response.ok) {
+                    showFormMessage(form, t.success, "success");
+                    form.reset();
+                } else {
+                    const data = await response.json();
+                    let errorMsg = t.errorGeneric;
+                    if (data && data.errors) {
+                        errorMsg = data.errors.map(err => err.message).join(", ");
+                    }
+                    showFormMessage(form, errorMsg, "error");
+                }
+            } catch (error) {
+                showFormMessage(form, t.errorNetwork, "error");
+            } finally {
+                // Button zurücksetzen
+                submitBtn.disabled = false;
+                submitBtn.style.opacity = "1";
+                submitBtn.innerHTML = originalBtnText;
+            }
+        });
+    }
+
+    // Hilfsfunktion zur Anzeige von Meldungen
+    function showFormMessage(formElement, message, type) {
+        const alertBox = document.createElement("div");
+        alertBox.className = `form-alert alert-${type}`;
+        alertBox.textContent = message;
+
+        alertBox.style.padding = "12px 16px";
+        alertBox.style.marginTop = "15px";
+        alertBox.style.borderRadius = "6px";
+        alertBox.style.fontSize = "0.95rem";
+        alertBox.style.textAlign = "center";
+
+        if (type === "success") {
+            alertBox.style.backgroundColor = "#d4edda";
+            alertBox.style.color = "#155724";
+            alertBox.style.border = "1px solid #c3e6cb";
+        } else {
+            alertBox.style.backgroundColor = "#f8d7da";
+            alertBox.style.color = "#721c24";
+            alertBox.style.border = "1px solid #f5c6cb";
+        }
+
+        formElement.appendChild(alertBox);
+
+        setTimeout(() => {
+            if (alertBox) {
+                alertBox.remove();
+            }
+        }, 8000);
+    }
+});

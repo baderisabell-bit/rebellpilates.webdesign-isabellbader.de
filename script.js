@@ -17,7 +17,6 @@ const translations = {
     erfahrungen: 'Erfahrungen',
     studio: 'Studio',
     welcome: 'Willkommen bei Rebell Pilates, wo du die ursprüngliche Methode von Joseph Pilates in ruhiger und privater Atmosphäre erleben kannst. Pilates hat seine Methode Contrology genannt und entwickelt, um das strukturelle Gleichgewicht wiederherzustellen, den Körper auf intelligente Weise zu stärken und eine echte muskuläre Kontrolle zu entwickeln. Der Ansatz ist korrigierend, präzise und systematisch verwurzelt. Unser Unterricht folgt der traditionellen Methode auf über Dutzend authentischen Geräten, basierend auf den ursprünglichen Patenten von Joseph Pilates. Der Name „Pilates“ ist rechtlich nicht geschützt und Rebell Pilates ist das einzige ausgestattete Studio im Landkreis München, das nach der ursprünglichen Methode aus dem New Yorker Gym unterrichtet. Jede Einheit hat einen Zweck. Der Ablauf ist logisch und maßgeschneidert. Jede Bewegung baut auf der vorherigen auf. Dies ist diszipliniertes Training für langfristige Gesundheit und Fitness. Wir stellen Qualität über Quantität. Bei Rebell Pilates Pilates ist jede Trainingseinheit Teil eines ganzheitlichen Systems, das auf strukturelle Integrität, funktionelle Kraft und lebenslange Beweglichkeit ausgerichtet ist. Erlebe originales Pilates so, wie es gelernt werden sollte, mit Präzision, Fokus und Integrität. Wenn du dich unabhängig vom Alter 10 Jahre jünger fühlen willst, dann ist Rebell Pilates für dich richtig.',
-    youtubeNotice: 'Mit dem Klick auf "Play" erklären Sie sich damit einverstanden, dass Daten an YouTube übermittelt werden.',
     josephpilates: 'Hubertus Joseph Pilates (1883-1967) entwickelte im 20. Jahrhundert Contrology, eine einzigartige Bewegungstechnik, die sich als eine Dehnung in zwei Richtungen vom starken Zentrum zusammenfassen lässt. Sie stärkt die Rücken-, Rumpf-, und Bauchmuskeln, da alle Bewegungen aus der Mitte heraus entstehen. Die Methode wird auf mehreren speziellen Geräten mit Federn ausgeführt, so dass das neuromuskuläre Gedächtnis lernt, die Technik in verschiedenen Situationen anzuwenden. Daher sind wenige Wiederholungen gebraucht, um die Bewegung beherrschen zu können. Die Sprungfedern assistieren die Muskeln und fordern sie gleichzeitig heraus, ohne die Gelenke zu belasten. Haltung, Beweglichkeit, Koordination und Kraft verbessern sich ganz natürlich durch die Übungen selbst. Contrology ist so konzipiert, dass die korrekte Ausrichtung und strukturelle Korrektur in jede Bewegung integriert sind, wodurch sicherere Bewegungen, schnellere Fortschritte, nachhaltige Ergebnisse und ein geringeres Verletzungsrisiko gewährleistet werden. Menschen beginnen mit Contrology zur Haltungskorrektur, zur Linderung chronischer Beschwerden, zur Verbesserung der Beweglichkeit, für mehr Rumpfstabilität und langfristige Kraft. Sie bleiben dabei, weil die Veränderungen messbar, funktional und nachhaltig sind.',
     instruktorin: 'Instrukteur',
     instruktorin_text: 'Ehemalige Tänzerin Alice R. Talkington trainierte u.a. mit vormaligen Schülern von Joe und Clara Pilates wie z.B. Jay Grimes (1940-2024) und Edwina Fontaine (1928-2014). Nach der Ausbildung  bei Romana’s Pilates arbeitete Alice in London, Genf, Wien und München als Instrukteurin. 2015 veranstaltete sie Deutschlands ersten Kongress für Contrology mit Gratz Pilates (gratzpilates.com) als Equipment Sponsor. Während ihres vierjährigen Aufenthalts in Berlin war Alices Coach Moses Urbano (www.accesspilates.com), ein  Protégé von Romana Kryzanowska, ehemalige Schülerin von Pilates, die die Führung des umgezogenen Studios nach Joes Tod übernommen hatte. Bevor sie 2024 Rebell Pilates in Regensburg gründete, war Alice in Frankreich, Hong Kong und den USA tätig. Zu ihren ehemaligen Kunden gehören Christine Kaufmann (1945-2017), Opernsängerin Albina Shagimuratova, Schauspielerin Astrid Posner,  Musiker David Alan Cooper und Schriftsteller Benjamin von Stuckrad-Barre. Alice bildet sich fortlaufend mit weltweit renommierten Trainerinnen fort, u.a. Inelia Garcia, Dorothee Vandewalle und MeJo Wiggin.',
@@ -60,8 +59,6 @@ const translations = {
     footer_datenschutz: 'Datenschutz',
     footer_agb: 'Allgemeine Geschäftsbedingungen',
     footer_phone: 'Telefon: +49 174 8238738',
-    cookie_video: 'Um dieses Video zu sehen, akzeptieren Sie bitte die Marketing-Cookies.',
-    cookie_btn: 'Cookie-Einstellungen ändern'
 },
     en: {
     hero_description: 'Personalized one-on-one training for lasting strength, flexibility, and physical balance.',
@@ -76,7 +73,6 @@ const translations = {
     studio: 'Studio',
     welcome: 'Welcome to Rebell Pilates, where you can experience Joseph Pilates’ original method of body conditioning in a calm and private environment. Pilates called his work Contrology and developed it to restore structural balance, to strengthen the body intelligently, and to develop genuine muscular control. The approach is corrective, precise, and systematically rooted. Our individual sessions follow the traditional technique on over a dozen authentic pieces of equipment, based on Joseph Pilates’ original patents. The name “Pilates” is not legally protected, and Rebell Pilates is the only equipped studio in the greater Munich area that teaches according to the blueprint developed over decades at the New York City gym.',
     welcome_description: 'Every session has a purpose. The sequence is logical and individualized. Each movement builds on the previous one. This is disciplined training for long-term health and fitness. We prioritize quality over quantity. At Rebell Pilates Pilates, every workout is part of a holistic system focused on structural integrity, functional strength, and lifelong mobility. Experience original Pilates the way it should be learned, with precision, focus, and authenticity. If you want to feel at least 10 years younger regardless of your age, then Rebell Pilates is right for you.',
-    youtubeNotice: 'Mit dem Klick auf "Play" erklären Sie sich damit einverstanden, dass Daten an YouTube übermittelt werden.',
     josephpilates: 'Hubertus Joseph Pilates (1883-1967) developed a technique of movement in the 20th century that can be summarized as a two-way stretch with a strong center and called it Contrology. It strengthens the back, core, and abdominal muscles because all movements originate from the center. The method is performed on several specialized pieces of apparatus so your neuromuscular memory learns to apply the technique in different situations. That’s why you don’t need several dozens of repetitions to achieve results. The springs assist and simultaneously challenge the muscles without placing pressure on the joints. Posture, mobility, coordination, and strength improve naturally through the exercises themselves. Contrology is designed so that correct alignment and structural correction are integrated into every movement, thereby ensuring safe movement, fast progress, sustainable results, and a low risk of injury. People begin Contrology to correct posture, to alleviate chronic conditions like back pain, to improve mobility, to increase core stability, and to build long-term strength. They continue because the changes are measurable, functional, and longlasting.',
     instruktorin: 'Instrukteurin',
     instruktorin_text: 'A former dancer, Alice R. Talkington has the privilege of having studied with former students of Joe and Clara Pilates such as Jay Grimes (1940-2024) and Edwina Fontaine (1928-2014), among others. After completing her teacher training, Alice gained experience as an instructor in London, Geneva, Vienna, and Munich. In 2015, she organized Germany’s first conference for Contrology with Gratz Pilates (gratzpilates.com) as the equipment sponsor. For almost four years in Berlin, Alice’s mentor was Moses Urbano (www.accesspilates.com), a protégé of Romana Kryzanowska, a former student of Pilates who took over the management of the relocated studio after Joe’s death. Before founding Rebell Pilates in Regensburg in 2024, Alice worked in France, Hong Kong, and the USA. Her former clients include Christine Kaufmann (1945-2017), opera singer Albina Shagimuratova, actress Astrid Posner, musician David Alan Cooper, and writer Benjamin von Stuckrad-Barre. Alice continues her education with internationally renowned trainers, most recently Inelia Garcia, Dorothee Vandewalle, and MeJo Wiggin.',
@@ -124,8 +120,6 @@ const translations = {
     footer_datenschutz: 'Privacy Policy',
     footer_agb: 'General Terms and Conditions',
     footer_phone: 'Phone: +49 174 8238738',
-    cookie_video: 'To view this video, please accept marketing cookies.',
-    cookie_btn: 'Accept Cookies'
     }   
 };
 
@@ -208,28 +202,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
-/*Video-Facade*/
-function loadYoutubeVideo(element, videoId) {
-  // Erstellt den iFrame
-  const iframe = document.createElement('iframe');
-  iframe.setAttribute('src', `https://www.youtube-nocookie.com/embed/${nQnLYoUHzps}?autoplay=1`);
-  iframe.setAttribute('title', 'YouTube video player');
-  iframe.setAttribute('frameborder', '0');
-  iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
-  iframe.setAttribute('allowfullscreen', 'true');
-  
-  // Stilt den iFrame so, dass er exakt in den Container passt
-  iframe.style.width = '100%';
-  iframe.style.height = '100%';
-
-  // Ersetzt das Vorschaubild durch den echten Player
-  element.innerHTML = '';
-  element.appendChild(iframe);
-  
-  // Entfernt den Klick-Event nach dem Laden
-  element.onclick = null;
-}
 
 let currentApparateIndex = 0;
 

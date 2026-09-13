@@ -1613,34 +1613,3 @@ a.btn-primary[data-i18n="booking_h2"]:active,
     text-decoration: none;
 }
 
-/* Standard: Platzhalter gestalten */
-.cookie-placeholder {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 30px;
-    background-color: var(--panel-color-light, #f4f4f4);
-    height: 100%;
-    min-height: 300px;
-    box-sizing: border-box;
-}
-
-.cookie-placeholder p {
-    margin-bottom: 15px;
-}
-
-/* Versteckt den Iframe vor der Einwilligung */
-iframe[data-cookieconsent="marketing"] {
-    display: none;
-}
-
-/* Sobald Marketing-Cookies akzeptiert wurden: Iframe einblenden, Platzhalter ausblenden */
-.cookieconsent-optin-marketing iframe[data-cookieconsent="marketing"] {
-    display: block !important;
-}
-
-.cookieconsent-optin-marketing .cookie-placeholder {
-    display: none !important;
-}

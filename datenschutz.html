@@ -268,51 +268,8 @@
 
         <hr class="datenschutz-divider">
 
-        <!-- 5. COOKIE CONSENT -->
         <div class="datenschutz-block">
-            <h2>5. Cookie-Einstellungen und Einwilligungsverwaltung</h2>
-
-            <p>
-                Auf unserer Website verwenden wir ein Consent-Management-System, um Ihre
-                Einwilligung zur Verwendung bestimmter Cookies und zur Einbindung externer
-                Dienste zu verwalten.
-            </p>
-
-            <p>
-                Anbieter des eingesetzten Consent-Management-Systems ist:
-            </p>
-
-            <p>
-                <strong>[NAME DES CONSENT-ANBIETERS, z. B. CookieYes]</strong><br>
-                [ANSCHRIFT DES ANBIETERS]
-            </p>
-
-            <p>
-                Das System speichert Ihre Auswahl, damit wir nachvollziehen können, ob und
-                welchen Verarbeitungen Sie zugestimmt haben. Nicht notwendige externe Dienste
-                werden erst geladen, wenn Sie hierzu Ihre Einwilligung erteilt haben.
-            </p>
-
-            <p>
-                Sie können Ihre Einwilligung jederzeit über die
-                <strong>Cookie-Einstellungen</strong> ändern oder widerrufen.
-            </p>
-
-            <p>
-                <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO für die
-                Verarbeitung auf Grundlage Ihrer Einwilligung.
-            </p>
-
-            <!-- LÜCKE:
-                 Tatsächlichen Consent-Anbieter, verwendete Cookies,
-                 Speicherdauer und genaue technische Funktionsweise prüfen. -->
-        </div>
-
-        <hr class="datenschutz-divider">
-
-        <!-- 6. GOOGLE MAPS -->
-        <div class="datenschutz-block">
-            <h2>6. Google Maps</h2>
+            <h2>5. Google Maps</h2>
 
             <p>
                 Auf unserer Website verwenden wir Google Maps, um Ihnen unseren Standort
@@ -325,14 +282,11 @@
             </p>
 
             <p>
-                Google Maps wird auf unserer Website erst geladen, nachdem Sie über unser
-                Consent-Management-System Ihre Einwilligung zur Einbindung externer Inhalte
-                erteilt haben. Ohne Ihre Einwilligung wird keine Verbindung zu Google
-                hergestellt und die Karte nicht geladen.
+                Beim Aufruf der Karte wird eine Verbindung zu Google hergestellt.
             </p>
 
             <p>
-                Nach Ihrer Einwilligung können insbesondere Ihre IP-Adresse und weitere
+                Dabei können insbesondere Ihre IP-Adresse und weitere
                 technische Daten an Google übermittelt werden. Dabei kann es auch zu einer
                 Übermittlung personenbezogener Daten in Länder außerhalb der Europäischen
                 Union bzw. des Europäischen Wirtschaftsraums, insbesondere in die USA,
@@ -340,9 +294,9 @@
             </p>
 
             <p>
-                <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO.
-                Ihre Einwilligung können Sie jederzeit über die Cookie-Einstellungen
-                mit Wirkung für die Zukunft widerrufen.
+                <strong>Rechtsgrundlage:</strong> Die rechtliche Grundlage für die
+                Einbindung und die damit verbundene Datenübermittlung sollte geprüft
+                und an die konkrete Nutzung angepasst werden.
             </p>
 
             <p>
@@ -357,9 +311,9 @@
 
         <hr class="datenschutz-divider">
 
-        <!-- 7. YOUTUBE -->
+        <!-- 6. YOUTUBE -->
         <div class="datenschutz-block">
-            <h2>7. YouTube</h2>
+            <h2>6. YouTube</h2>
 
             <p>
                 Auf unserer Website werden Videos der Plattform YouTube eingebunden.
@@ -368,14 +322,11 @@
             </p>
 
             <p>
-                Die YouTube-Videos werden auf unserer Website erst geladen, nachdem Sie
-                über unser Consent-Management-System Ihre Einwilligung zur Einbindung
-                externer Inhalte erteilt haben. Ohne Ihre Einwilligung wird keine
-                Verbindung zu YouTube hergestellt und das Video nicht geladen.
+                Beim Aufruf des Videos wird eine Verbindung zu YouTube hergestellt.
             </p>
 
             <p>
-                Nach Ihrer Einwilligung können insbesondere Ihre IP-Adresse und weitere
+                Dabei können insbesondere Ihre IP-Adresse und weitere
                 technische Daten an Google übermittelt werden. Dabei kann es auch zu einer
                 Übermittlung personenbezogener Daten in Länder außerhalb der Europäischen
                 Union bzw. des Europäischen Wirtschaftsraums, insbesondere in die USA,
@@ -383,9 +334,9 @@
             </p>
 
             <p>
-                <strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO.
-                Ihre Einwilligung können Sie jederzeit über die Cookie-Einstellungen
-                mit Wirkung für die Zukunft widerrufen.
+                <strong>Rechtsgrundlage:</strong> Die rechtliche Grundlage für die
+                Einbindung und die damit verbundene Datenübermittlung sollte geprüft
+                und an die konkrete Nutzung angepasst werden.
             </p>
 
             <p>
@@ -506,21 +457,13 @@
             <h2 data-i18n="location_h2">Anfahrt & Standort</h2>
             
             <div class="map-container">
-                <div class="map-placeholder" id="map-placeholder">
-                    <p data-i18n="location_map">Bitte akzeptiere die externen Medien in den Cookie-Einstellungen, um die Karte zu sehen.</p>
-                    <button onclick="openCookieSettings()" class="btn-primary" data-i18n="location_map_button">Cookie-Einstellungen öffnen</button>
-                </div>
-
-                <div id="map-iframe-container" style="display: none; width: 100%; height: 100%;">
                     <iframe 
-                        data-name="googleMaps"
-                        data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.2347375723853!2d11.492468676264496!3d48.0284928712316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479fc12650279a75%3A0x7f6dccee75fd1aeb!2sRebell%20Pilates!5e0!3m2!1sde!2sde!4v1786280048822!5m2!1sde!2sde" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.2347375723853!2d11.492468676264496!3d48.0284928712316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479fc12650279a75%3A0x7f6dccee75fd1aeb!2sRebell%20Pilates!5e0!3m2!1sde!2sde!4v1786280048822!5m2!1sde!2sde"
                         style="border:0;" 
                         allowfullscreen="" 
                         loading="lazy" 
                         referrerpolicy="strict-origin-when-cross-origin">
                     </iframe>
-                </div>
             </div>
         </section> 
     </div>
@@ -564,7 +507,6 @@
             <h4 data-i18n="footer_information">Informationen</h4>
             <a href="impressum.html" data-i18n="footer_impressum">Impressum</a>
             <a href="datenschutz.html" data-i18n="footer_datenschutz">Datenschutz</a>
-            <a href="#" onclick="Cookiebot.renew(); return false;">Cookie-Einstellungen</a>
         </div>
     <div class="footer-bottom">
         <p data-i18n="footer_copyright">&copy; 2026 Rebell Pilates – Alle Rechte vorbehalten. <br>

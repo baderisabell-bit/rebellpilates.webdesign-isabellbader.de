@@ -280,24 +280,26 @@ const translations = {
 
 const langSwitch = document.getElementById('lang-switch');
 
-langSwitch.addEventListener('click', () => {
-    const currentLang = document.documentElement.lang;
-    const newLang = currentLang === 'de' ? 'en' : 'de';
-    
+function applyLanguage(language) {
+    const newLang = translations[language] ? language : 'de';
     document.documentElement.lang = newLang;
-    langSwitch.textContent = newLang === 'de' ? 'EN' : 'DE';
-    
-    // Texte aktualisieren
+    localStorage.setItem('lang', newLang);
+
+    if (langSwitch) langSwitch.textContent = newLang === 'de' ? 'EN' : 'DE';
+
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[newLang][key]) {
             element.innerHTML = translations[newLang][key];
         }
     });
-    const nurAufDeutsch = document.querySelectorAll('.only-de');
-  nurAufDeutsch.forEach(el => {
-    el.style.display = (lang === 'en') ? 'none' : 'block';
-  });
+}
+
+applyLanguage(currentLang);
+
+if (langSwitch) langSwitch.addEventListener('click', () => {
+    const newLang = document.documentElement.lang === 'de' ? 'en' : 'de';
+    applyLanguage(newLang);
 });
 
 /*Erfahrungen*/

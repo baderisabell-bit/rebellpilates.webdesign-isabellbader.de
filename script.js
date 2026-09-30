@@ -53,6 +53,9 @@ const translations = {
     contact_form_submit: 'Absenden',
     contact_form_success: 'Vielen Dank für deine Nachricht! Ich werde mich so schnell wie möglich bei dir melden.',
     contact_form_error: 'Es gab ein Problem beim Senden deiner Nachricht. Bitte versuche es später erneut.',
+    cookie_consent_youtube: 'Bitte stimme der Nutzung von YouTube zu, um das Video zu laden.',
+    cookie_consent_maps: 'Bitte stimme der Nutzung von Google Maps zu, um die Karte zu laden.',
+    cookie_consent_button: 'Zustimmung erteilen',
     footer_contact: 'Kontakt',
     footer_information: 'Informationen',
     footer_impressum: 'Impressum',
@@ -192,6 +195,9 @@ const translations = {
     contact_form_submit: 'Submit',
     contact_form_success: 'Thank you for your message! I will get back to you as soon as possible.',
     contact_form_error: 'There was a problem sending your message. Please try again later.',
+    cookie_consent_youtube: 'Please consent to YouTube to load the video.',
+    cookie_consent_maps: 'Please consent to Google Maps to load the map.',
+    cookie_consent_button: 'Give consent',
     footer_contact: 'Contact',
     footer_information: 'Information',
     footer_impressum: 'Imprint',
@@ -279,6 +285,24 @@ const translations = {
 };
 
 const langSwitch = document.getElementById('lang-switch');
+
+function updateCookiePlaceholders() {
+    const hasMarketingConsent = Boolean(window.Cookiebot && window.Cookiebot.consent && window.Cookiebot.consent.marketing);
+
+    document.querySelectorAll('.cookie-consent-placeholder').forEach(placeholder => {
+        placeholder.hidden = hasMarketingConsent;
+    });
+}
+
+function openCookieSettings() {
+    if (window.Cookiebot) {
+        window.Cookiebot.renew();
+    }
+}
+
+window.addEventListener('CookiebotOnAccept', updateCookiePlaceholders);
+window.addEventListener('CookiebotOnDecline', updateCookiePlaceholders);
+document.addEventListener('DOMContentLoaded', updateCookiePlaceholders);
 
 function applyLanguage(language) {
     const newLang = translations[language] ? language : 'de';

@@ -275,27 +275,16 @@ html {
 }
 
 .nav-address {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 6px;
     color: var(--text-color);
     font-size: 0.9rem;
-}
-
-.nav-address > a {
-    display: block;
-}
-
-.nav-address-details {
-    display: flex;
-    align-items: flex-start;
-    gap: 6px;
-    padding-top: 2px;
-    color: var(--text-color);
     white-space: nowrap;
 }
 
-.nav-address-details i {
+.nav-address i {
     font-size: 0.9rem;
-    padding-top: 3px;
 }
 
 .site-header.nav-open .header-email-text {

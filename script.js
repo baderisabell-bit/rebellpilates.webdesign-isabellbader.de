@@ -53,6 +53,7 @@ const translations = {
     contact_form_submit: 'Absenden',
     contact_form_success: 'Vielen Dank für deine Nachricht! Ich werde mich so schnell wie möglich bei dir melden.',
     contact_form_error: 'Es gab ein Problem beim Senden deiner Nachricht. Bitte versuche es später erneut.',
+    cookie_settings: 'Cookie-Einstellungen',
     cookie_consent_youtube: 'Bitte stimme der Nutzung von YouTube zu, um das Video zu laden.',
     cookie_consent_maps: 'Bitte stimme der Nutzung von Google Maps zu, um die Karte zu laden.',
     cookie_consent_button: 'Zustimmung erteilen',
@@ -195,6 +196,7 @@ const translations = {
     contact_form_submit: 'Submit',
     contact_form_success: 'Thank you for your message! I will get back to you as soon as possible.',
     contact_form_error: 'There was a problem sending your message. Please try again later.',
+    cookie_settings: 'Cookie settings',
     cookie_consent_youtube: 'Please consent to YouTube to load the video.',
     cookie_consent_maps: 'Please consent to Google Maps to load the map.',
     cookie_consent_button: 'Give consent',
@@ -288,8 +290,7 @@ const langSwitch = document.getElementById('lang-switch');
 const marketingConsentStorageKey = 'rebellpilates-marketing-consent';
 
 function hasMarketingConsent() {
-    return localStorage.getItem(marketingConsentStorageKey) === 'granted'
-        || Boolean(window.Cookiebot && window.Cookiebot.consent && window.Cookiebot.consent.marketing);
+    return localStorage.getItem(marketingConsentStorageKey) === 'granted';
 }
 
 function loadMarketingContent() {
@@ -304,29 +305,24 @@ function loadMarketingContent() {
     });
 }
 
-function hideFallbackCookieBanner() {
-    const banner = document.getElementById('fallback-cookie-banner');
+function hideCookieBanner() {
+    const banner = document.getElementById('custom-cookie-banner');
     if (banner) banner.remove();
 }
 
 function acceptMarketingCookies() {
     localStorage.setItem(marketingConsentStorageKey, 'granted');
-
-    if (window.Cookiebot && typeof window.Cookiebot.submitCustomConsent === 'function') {
-        window.Cookiebot.submitCustomConsent(true, true, true);
-    }
-
     loadMarketingContent();
-    hideFallbackCookieBanner();
+    hideCookieBanner();
 }
 
 function rejectMarketingCookies() {
     localStorage.setItem(marketingConsentStorageKey, 'denied');
-    hideFallbackCookieBanner();
+    hideCookieBanner();
 }
 
-function showFallbackCookieBanner() {
-    let banner = document.getElementById('fallback-cookie-banner');
+function showCookieBanner() {
+    let banner = document.getElementById('custom-cookie-banner');
     if (banner) return;
 
     const language = document.documentElement.lang === 'en' ? 'en' : 'de';
@@ -345,12 +341,12 @@ function showFallbackCookieBanner() {
         };
 
     banner = document.createElement('div');
-    banner.id = 'fallback-cookie-banner';
-    banner.className = 'fallback-cookie-banner';
+    banner.id = 'custom-cookie-banner';
+    banner.className = 'custom-cookie-banner';
     banner.setAttribute('role', 'dialog');
     banner.setAttribute('aria-live', 'polite');
     banner.innerHTML = `<div><strong>${content.title}</strong><p>${content.text}</p></div>
-        <div class="fallback-cookie-actions">
+        <div class="custom-cookie-actions">
             <button type="button" class="cookie-consent-button" data-cookie-accept>${content.accept}</button>
             <button type="button" class="cookie-consent-button cookie-consent-button-secondary" data-cookie-reject>${content.reject}</button>
         </div>`;
@@ -373,24 +369,14 @@ function updateCookiePlaceholders() {
 }
 
 function openCookieSettings() {
-    if (window.Cookiebot && document.querySelector('#CybotCookiebotDialog')) {
-        window.Cookiebot.renew();
-    } else {
-        showFallbackCookieBanner();
-    }
+    showCookieBanner();
 }
 
-window.addEventListener('CookiebotOnAccept', updateCookiePlaceholders);
-window.addEventListener('CookiebotOnDecline', updateCookiePlaceholders);
 document.addEventListener('DOMContentLoaded', () => {
     updateCookiePlaceholders();
 
     if (!hasMarketingConsent()) {
-        window.setTimeout(() => {
-            if (!document.querySelector('#CybotCookiebotDialog')) {
-                showFallbackCookieBanner();
-            }
-        }, 1000);
+        showCookieBanner();
     }
 });
 

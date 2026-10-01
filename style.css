@@ -502,7 +502,19 @@ html {
     background: #ffffff;
 }
 
-.fallback-cookie-banner {
+.footer-cookie-settings {
+    display: block;
+    margin-top: 8px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.custom-cookie-banner {
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -518,24 +530,24 @@ html {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.16);
 }
 
-.fallback-cookie-banner strong {
+.custom-cookie-banner strong {
     display: block;
     margin-bottom: 4px;
 }
 
-.fallback-cookie-banner p {
+.custom-cookie-banner p {
     margin: 0;
     text-align: left;
 }
 
-.fallback-cookie-actions {
+.custom-cookie-actions {
     display: flex;
     flex-shrink: 0;
     gap: 10px;
 }
 
 @media (max-width: 600px) {
-    .fallback-cookie-banner {
+    .custom-cookie-banner {
         right: 10px;
         bottom: 10px;
         flex-direction: column;
@@ -545,7 +557,7 @@ html {
         padding: 18px;
     }
 
-    .fallback-cookie-actions {
+    .custom-cookie-actions {
         flex-direction: column;
     }
 }

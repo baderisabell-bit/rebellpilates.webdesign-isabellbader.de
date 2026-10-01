@@ -290,7 +290,7 @@ const langSwitch = document.getElementById('lang-switch');
 const marketingConsentStorageKey = 'rebellpilates-marketing-consent';
 
 function hasMarketingConsent() {
-    return localStorage.getItem(marketingConsentStorageKey) === 'granted';
+    return Boolean(window.cookiehub && window.cookiehub.hasConsented && window.cookiehub.hasConsented('marketing'));
 }
 
 function loadMarketingContent() {
@@ -369,15 +369,16 @@ function updateCookiePlaceholders() {
 }
 
 function openCookieSettings() {
-    showCookieBanner();
+    if (window.cookiehub && window.cookiehub.openSettings) {
+        window.cookiehub.openSettings();
+    }
 }
 
+document.addEventListener('cookiehub_onStatusChange', updateCookiePlaceholders);
+document.addEventListener('cookiehub_onAllow', updateCookiePlaceholders);
+document.addEventListener('cookiehub_onInitialise', updateCookiePlaceholders);
 document.addEventListener('DOMContentLoaded', () => {
     updateCookiePlaceholders();
-
-    if (!hasMarketingConsent()) {
-        showCookieBanner();
-    }
 });
 
 function applyLanguage(language) {
